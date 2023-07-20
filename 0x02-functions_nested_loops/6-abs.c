@@ -1,14 +1,15 @@
-#include "holberton.h"
+#include "main.h"
 /**
- * _abs - return the absolute value of a given integer.
- * @i: value use to find the absolute value.
- *
- *
- * Return: the absolute value.
- */
+* _abs - prints the absolute value of a number
+*@i: number targeted
+*Return: returns 0
+*/
 int _abs(int i)
 {
-	if (i < 0)
-		return (-i);
-	return (i);
+if (i > 0)
+return (i);
+else if (i < 0)
+return (-i);
+else
+return (0);
 }
